@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Peer Assigment 1"
 author: "Andreu Schoenenberger"
 date: "Thursday, February 18, 2016"
@@ -202,3 +203,29 @@ xyplot(steps ~ interval | weekday, data = steps5min_NoNA, layout = c(1,2), type 
        xlab = "5-minute interval", ylab = "Steps", 
        main = "Average of steps taken across all days for a given 5-min interval, grouping by weekday")
 ```
+=======
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
